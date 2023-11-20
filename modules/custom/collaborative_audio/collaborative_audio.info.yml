@@ -1,0 +1,7 @@
+name: Collaborative Audio
+type: module
+description: 'Allows users to upload audio files with waveform display and project files.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:file

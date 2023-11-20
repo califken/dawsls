@@ -1,0 +1,8 @@
+waveform:
+  version: 1.x
+  js:
+    https://unpkg.com/wavesurfer.js: { type: external, minified: true }
+    js/collaborative_audio.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
