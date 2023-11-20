@@ -5,6 +5,8 @@ use Drupal\field\Entity\FieldStorageConfig;
 use Drupal\field\Entity\FieldConfig;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Field\FieldItemListInterface;
+use Drupal\Core\Field\FormatterBase;
 
 /**
  * Implements hook_form_alter().
@@ -113,4 +115,49 @@ function collaborative_audio_node_view(array &$build, \Drupal\Core\Entity\Entity
     $build['#attached']['library'][] = 'collaborative_audio/wavesurfer';
     $build['#attached']['library'][] = 'collaborative_audio/collaborative_audio_waveform.js';
   }
+}
+
+
+/**
+ * Implements hook_theme().
+ */
+function collaborative_audio_theme($existing, $type, $theme, $path) {
+  return [
+    'collaborative_audio_audio_file_formatter' => [
+      'variables' => ['item' => NULL, 'elements' => NULL],
+      'file' => 'collaborative_audio.theme.inc',
+    ],
+  ];
+}
+
+
+/**
+ * Implements hook_field_formatter_info().
+ */
+function collaborative_audio_field_formatter_info() {
+  return [
+    'collaborative_audio_audio_file' => [
+      'label' => t('Collaborative Audio File with Waveform'),
+      'field_types' => [
+        'file',
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_field_formatter_view().
+ */
+function collaborative_audio_field_formatter_view(FieldItemListInterface $items, $langcode, $items_to_render) {
+  $elements = [];
+
+  foreach ($items as $delta => $item) {
+    $elements[$delta] = [
+      '#theme' => 'collaborative_audio_audio_file_formatter',
+      '#item' => $item,
+      '#elements' => $items_to_render,
+    ];
+  }
+
+  return $elements;
 }
