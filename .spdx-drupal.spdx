@@ -1,0 +1,3441 @@
+{
+    "SPDXID": "SPDXRef-drupal",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-11-03T11:30:11.378Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Drupal 10.1.6",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-drupal"
+    ],
+    "documentNamespace": "drupal-10.1.6",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-drush",
+            "name": "Drush",
+            "versionInfo": "11.6.0",
+            "downloadLocation": "https://github.com/drush-ops/drush/archive/11.6.0.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drush:drush:11.6.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drush@11.6.0?arch=amd64"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "asm89/stack-cors",
+            "SPDXID": "SPDXRef-Package-64c4db11ae2db6ac",
+            "versionInfo": "v2.1.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/asm89/stack-cors@v2.1.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "chi-teck/drupal-code-generator",
+            "SPDXID": "SPDXRef-Package-7ceb939215f29815",
+            "versionInfo": "2.6.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/chi-teck/drupal-code-generator@2.6.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "composer",
+            "SPDXID": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "downloadLocation": "NONE",
+            "sourceInfo": "composer.lock",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "filesAnalyzed": false
+        },
+        {
+            "name": "composer/installers",
+            "SPDXID": "SPDXRef-Package-f4d0f082c3e6e687",
+            "versionInfo": "v2.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/composer/installers@v2.2.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "composer/semver",
+            "SPDXID": "SPDXRef-Package-138623dcb20d4700",
+            "versionInfo": "3.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/composer/semver@3.3.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/annotated-command",
+            "SPDXID": "SPDXRef-Package-2c45b67f83f3ad34",
+            "versionInfo": "4.9.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/annotated-command@4.9.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/config",
+            "SPDXID": "SPDXRef-Package-408b2a57a31e49fd",
+            "versionInfo": "2.1.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/config@2.1.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/filter-via-dot-access-data",
+            "SPDXID": "SPDXRef-Package-241b828b2ab8a110",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/filter-via-dot-access-data@2.0.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/log",
+            "SPDXID": "SPDXRef-Package-b2430d2437b4aa35",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/log@3.0.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/output-formatters",
+            "SPDXID": "SPDXRef-Package-d35f6b30f04c754f",
+            "versionInfo": "4.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/output-formatters@4.3.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/robo",
+            "SPDXID": "SPDXRef-Package-2bc8fba5245b8863",
+            "versionInfo": "4.0.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/robo@4.0.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/self-update",
+            "SPDXID": "SPDXRef-Package-6ca557fe5b999023",
+            "versionInfo": "2.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/self-update@2.2.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/site-alias",
+            "SPDXID": "SPDXRef-Package-6c95835b2fe21e9b",
+            "versionInfo": "4.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/site-alias@4.0.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "consolidation/site-process",
+            "SPDXID": "SPDXRef-Package-dd9eda2b7837e927",
+            "versionInfo": "5.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/consolidation/site-process@5.2.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "dflydev/dot-access-data",
+            "SPDXID": "SPDXRef-Package-b29ec9cab61a7817",
+            "versionInfo": "v3.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/dflydev/dot-access-data@v3.0.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "doctrine/annotations",
+            "SPDXID": "SPDXRef-Package-f3b127cbd8241179",
+            "versionInfo": "1.14.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/annotations@1.14.3"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "doctrine/deprecations",
+            "SPDXID": "SPDXRef-Package-3e1b0084c8550b0b",
+            "versionInfo": "1.1.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/deprecations@1.1.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "doctrine/lexer",
+            "SPDXID": "SPDXRef-Package-73795087baf97e43",
+            "versionInfo": "2.1.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/doctrine/lexer@2.1.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "drupal/core",
+            "SPDXID": "SPDXRef-Package-c1cd678a2c886b6c",
+            "versionInfo": "10.1.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core@10.1.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "drupal/core-composer-scaffold",
+            "SPDXID": "SPDXRef-Package-ca56237bc3f8d1a6",
+            "versionInfo": "10.1.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-composer-scaffold@10.1.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "drupal/core-project-message",
+            "SPDXID": "SPDXRef-Package-3a7ec3f2761c78f0",
+            "versionInfo": "10.1.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-project-message@10.1.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "drupal/core-recommended",
+            "SPDXID": "SPDXRef-Package-ff0cae49e8b28a8b",
+            "versionInfo": "10.1.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-recommended@10.1.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "drupal/core-vendor-hardening",
+            "SPDXID": "SPDXRef-Package-66f391e95837fb73",
+            "versionInfo": "10.1.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drupal/core-vendor-hardening@10.1.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "drush/drush",
+            "SPDXID": "SPDXRef-Package-45aafe6ac70ada4a",
+            "versionInfo": "11.6.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/drush/drush@11.6.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "egulias/email-validator",
+            "SPDXID": "SPDXRef-Package-46069ac4ec73eb7e",
+            "versionInfo": "4.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/egulias/email-validator@4.0.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "enlightn/security-checker",
+            "SPDXID": "SPDXRef-Package-7561f8356d710e66",
+            "versionInfo": "v1.10.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/enlightn/security-checker@v1.10.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "grasmash/expander",
+            "SPDXID": "SPDXRef-Package-80e3a5f4c86661d1",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/grasmash/expander@3.0.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "SPDXID": "SPDXRef-Package-c0938380da5ece8d",
+            "versionInfo": "7.7.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.7.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "SPDXID": "SPDXRef-Package-6dff712f2c638dce",
+            "versionInfo": "2.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/promises@2.0.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "SPDXID": "SPDXRef-Package-fd306a1bcfc61b7d",
+            "versionInfo": "2.5.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.5.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "league/container",
+            "SPDXID": "SPDXRef-Package-536530025092335a",
+            "versionInfo": "4.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/league/container@4.2.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "masterminds/html5",
+            "SPDXID": "SPDXRef-Package-708a54e1b000d3be",
+            "versionInfo": "2.8.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/masterminds/html5@2.8.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "mck89/peast",
+            "SPDXID": "SPDXRef-Package-1123f6fb345be0ff",
+            "versionInfo": "v1.15.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/mck89/peast@v1.15.4"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "nikic/php-parser",
+            "SPDXID": "SPDXRef-Package-8392fab40513fb8a",
+            "versionInfo": "v4.17.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v4.17.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "pear/archive_tar",
+            "SPDXID": "SPDXRef-Package-c28d48468640cc00",
+            "versionInfo": "1.4.14",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/archive_tar@1.4.14"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "pear/console_getopt",
+            "SPDXID": "SPDXRef-Package-e9d04c74a7906224",
+            "versionInfo": "v1.4.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/console_getopt@v1.4.3"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "pear/pear-core-minimal",
+            "SPDXID": "SPDXRef-Package-e25477ed2734fa63",
+            "versionInfo": "v1.10.13",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/pear-core-minimal@v1.10.13"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "pear/pear_exception",
+            "SPDXID": "SPDXRef-Package-559554bb92058b91",
+            "versionInfo": "v1.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/pear/pear_exception@v1.0.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "phootwork/collection",
+            "SPDXID": "SPDXRef-Package-94b5712e535c99eb",
+            "versionInfo": "v3.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phootwork/collection@v3.2.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "phootwork/lang",
+            "SPDXID": "SPDXRef-Package-ae27e9aaba4951e7",
+            "versionInfo": "v3.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phootwork/lang@v3.2.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "SPDXID": "SPDXRef-Package-a7f690658a855822",
+            "versionInfo": "v6.8.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "LGPL-2.1-only",
+            "licenseDeclared": "LGPL-2.1-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phpmailer/phpmailer@v6.8.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "phpowermove/docblock",
+            "SPDXID": "SPDXRef-Package-1e6344daa660d82a",
+            "versionInfo": "v4.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/phpowermove/docblock@v4.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/cache",
+            "SPDXID": "SPDXRef-Package-a72e26077fb1da82",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/cache@3.0.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/container",
+            "SPDXID": "SPDXRef-Package-c32bd8910ac422d0",
+            "versionInfo": "2.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/container@2.0.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-49731b80a34badeb",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/http-client",
+            "SPDXID": "SPDXRef-Package-8f8467949cd67281",
+            "versionInfo": "1.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-client@1.0.3"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/http-factory",
+            "SPDXID": "SPDXRef-Package-2efa405838fd336c",
+            "versionInfo": "1.0.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-factory@1.0.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/http-message",
+            "SPDXID": "SPDXRef-Package-93b9928a8559a265",
+            "versionInfo": "2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/http-message@2.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psr/log",
+            "SPDXID": "SPDXRef-Package-3f0343a0e48fae8e",
+            "versionInfo": "3.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psr/log@3.0.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "psy/psysh",
+            "SPDXID": "SPDXRef-Package-6c6b91c20221e156",
+            "versionInfo": "v0.11.22",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/psy/psysh@v0.11.22"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "SPDXID": "SPDXRef-Package-c1cacbf0e1a3fd1d",
+            "versionInfo": "3.0.3",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "sebastian/diff",
+            "SPDXID": "SPDXRef-Package-7e99ebd2c4a691f1",
+            "versionInfo": "4.0.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/sebastian/diff@4.0.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/console",
+            "SPDXID": "SPDXRef-Package-56e9be2dccdadec5",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/console@v6.3.4"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "SPDXID": "SPDXRef-Package-787c104a34cbfc6d",
+            "versionInfo": "v6.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/dependency-injection@v6.3.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "SPDXID": "SPDXRef-Package-cd96bd80c1f7cbd0",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v3.3.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/error-handler",
+            "SPDXID": "SPDXRef-Package-1d1de0c2c75f39dd",
+            "versionInfo": "v6.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/error-handler@v6.3.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "SPDXID": "SPDXRef-Package-edcf1fe378e0cc84",
+            "versionInfo": "v6.3.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v6.3.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "SPDXID": "SPDXRef-Package-3df2280cad661e93",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v3.3.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/filesystem",
+            "SPDXID": "SPDXRef-Package-c7d31f6f4ed991c",
+            "versionInfo": "v6.3.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/filesystem@v6.3.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/finder",
+            "SPDXID": "SPDXRef-Package-70ed8bd92f86013d",
+            "versionInfo": "v6.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/finder@v6.3.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/http-foundation",
+            "SPDXID": "SPDXRef-Package-9dcd4ed35d16ad46",
+            "versionInfo": "v6.3.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/http-foundation@v6.3.7"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/http-kernel",
+            "SPDXID": "SPDXRef-Package-aae08e37c2a87f5c",
+            "versionInfo": "v6.3.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/http-kernel@v6.3.7"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/mime",
+            "SPDXID": "SPDXRef-Package-2a6d99f705dc47e",
+            "versionInfo": "v6.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/mime@v6.3.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "SPDXID": "SPDXRef-Package-9313e3350c8b1837",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-iconv",
+            "SPDXID": "SPDXRef-Package-c6324eff3180bfea",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-iconv@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "SPDXID": "SPDXRef-Package-cc963677ca0679e",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-intl-idn",
+            "SPDXID": "SPDXRef-Package-58d66bed2f56d41b",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-idn@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "SPDXID": "SPDXRef-Package-33549b19e9cf9883",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "SPDXID": "SPDXRef-Package-4c9e20605f3ddd49",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "SPDXID": "SPDXRef-Package-ccc1b1e2f6e29bd5",
+            "versionInfo": "v1.28.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php72@v1.28.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "SPDXID": "SPDXRef-Package-499a5ec3726b596f",
+            "versionInfo": "v1.28.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php80@v1.28.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-php81",
+            "SPDXID": "SPDXRef-Package-851fdfc5337716a3",
+            "versionInfo": "v1.28.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php81@v1.28.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/polyfill-php83",
+            "SPDXID": "SPDXRef-Package-6f90714d4f51326a",
+            "versionInfo": "v1.27.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php83@v1.27.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/process",
+            "SPDXID": "SPDXRef-Package-7ed8feef9ae4123c",
+            "versionInfo": "v6.3.4",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/process@v6.3.4"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/psr-http-message-bridge",
+            "SPDXID": "SPDXRef-Package-7a9b724725018119",
+            "versionInfo": "v2.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/psr-http-message-bridge@v2.2.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/routing",
+            "SPDXID": "SPDXRef-Package-9d887ef50bf7a50d",
+            "versionInfo": "v6.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/routing@v6.3.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/serializer",
+            "SPDXID": "SPDXRef-Package-fef7d66677bb5f55",
+            "versionInfo": "v6.3.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/serializer@v6.3.7"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/service-contracts",
+            "SPDXID": "SPDXRef-Package-5a76d25a0f0fc6c",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v3.3.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/string",
+            "SPDXID": "SPDXRef-Package-6ca4e90bb16cc84",
+            "versionInfo": "v6.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/string@v6.3.5"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "SPDXID": "SPDXRef-Package-86ce9bc4499a6cc7",
+            "versionInfo": "v3.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/translation-contracts@v3.3.0"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/validator",
+            "SPDXID": "SPDXRef-Package-3a53a0f5d707e18d",
+            "versionInfo": "v6.3.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/validator@v6.3.7"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/var-dumper",
+            "SPDXID": "SPDXRef-Package-2dee9df3584085f8",
+            "versionInfo": "v6.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-dumper@v6.3.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/var-exporter",
+            "SPDXID": "SPDXRef-Package-5b18eae54d69da28",
+            "versionInfo": "v6.3.6",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/var-exporter@v6.3.6"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "symfony/yaml",
+            "SPDXID": "SPDXRef-Package-1ef50189cba8b4af",
+            "versionInfo": "v6.3.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/symfony/yaml@v6.3.7"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "twig/twig",
+            "SPDXID": "SPDXRef-Package-c4ff7fe1d3b2ab11",
+            "versionInfo": "v3.6.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/twig/twig@v3.6.1"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "webflo/drupal-finder",
+            "SPDXID": "SPDXRef-Package-b7cd1fa747504e31",
+            "versionInfo": "1.2.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:composer/webflo/drupal-finder@1.2.2"
+                }
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "SPDXID": "SPDXRef-drupal-plugin-ctools",
+            "name": "Drupal Plugin Chaos Tools",
+            "versionInfo": "8.3.14",
+            "downloadLocation": "https://ftp-origin.drupal.org/files/projects/ctools-8.x-3.14.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drupal-plugin-ctools:drupal-plugin-ctools:8.3.14:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drupal-plugin-ctools@8.3.14?arch=amd64"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-drupal-plugin-smtp",
+            "name": "Drupal Plugin SMTP Authentication Support",
+            "versionInfo": "8.1.2",
+            "downloadLocation": "https://ftp-origin.drupal.org/files/projects/smtp-8.x-1.2.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drupal-plugin-smtp:drupal-plugin-smtp:8.1.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drupal-plugin-smtp@8.1.2?arch=amd64"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer",
+            "SPDXID": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "downloadLocation": "NONE",
+            "sourceInfo": "composer.lock",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "filesAnalyzed": false
+        },
+        {
+            "SPDXID": "SPDXRef-phpmailer",
+            "name": "PHPMailer",
+            "versionInfo": "6.8.1",
+            "downloadLocation": "https://github.com/phpmailer/phpmailer/archive/v6.8.1.tar.gz",
+            "licenseConcluded": "LGPL-2.1-only",
+            "licenseDeclared": "LGPL-2.1-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:phpmailer_project:phpmailer:6.8.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/phpmailer@6.8.1?arch=amd64"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer",
+            "SPDXID": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "downloadLocation": "NONE",
+            "sourceInfo": "composer.lock",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "filesAnalyzed": false
+        },
+        {
+            "SPDXID": "SPDXRef-drupal",
+            "name": "Drupal",
+            "versionInfo": "10.1.6",
+            "downloadLocation": "https://ftp.drupal.org/files/projects/drupal-10.1.6.tar.gz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:drupal:drupal:10.1.6:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/drupal@10.1.6?arch=amd64"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "composer",
+            "SPDXID": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "downloadLocation": "NONE",
+            "sourceInfo": "composer.lock",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "filesAnalyzed": false
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-drush"
+        },
+        {
+            "spdxElementId": "SPDXRef-drush",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-2201f8edd0bfe089-drush"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-64c4db11ae2db6ac",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-7ceb939215f29815",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-f4d0f082c3e6e687",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-138623dcb20d4700",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-2c45b67f83f3ad34",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-408b2a57a31e49fd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-241b828b2ab8a110",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-b2430d2437b4aa35",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-d35f6b30f04c754f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-2bc8fba5245b8863",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6ca557fe5b999023",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6c95835b2fe21e9b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-dd9eda2b7837e927",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-b29ec9cab61a7817",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-f3b127cbd8241179",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-3e1b0084c8550b0b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-73795087baf97e43",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c1cd678a2c886b6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-ca56237bc3f8d1a6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-3a7ec3f2761c78f0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-ff0cae49e8b28a8b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-66f391e95837fb73",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-45aafe6ac70ada4a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-46069ac4ec73eb7e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-7561f8356d710e66",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-80e3a5f4c86661d1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c0938380da5ece8d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6dff712f2c638dce",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-fd306a1bcfc61b7d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-536530025092335a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-708a54e1b000d3be",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1123f6fb345be0ff",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-8392fab40513fb8a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c28d48468640cc00",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-e9d04c74a7906224",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-e25477ed2734fa63",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-559554bb92058b91",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-94b5712e535c99eb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-ae27e9aaba4951e7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-a7f690658a855822",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1e6344daa660d82a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-a72e26077fb1da82",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c32bd8910ac422d0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-49731b80a34badeb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-8f8467949cd67281",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-2efa405838fd336c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-93b9928a8559a265",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-3f0343a0e48fae8e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6c6b91c20221e156",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c1cacbf0e1a3fd1d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-7e99ebd2c4a691f1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-56e9be2dccdadec5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-787c104a34cbfc6d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-cd96bd80c1f7cbd0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1d1de0c2c75f39dd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-edcf1fe378e0cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-3df2280cad661e93",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c7d31f6f4ed991c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-70ed8bd92f86013d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-9dcd4ed35d16ad46",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-aae08e37c2a87f5c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-2a6d99f705dc47e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-9313e3350c8b1837",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c6324eff3180bfea",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-cc963677ca0679e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-58d66bed2f56d41b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-33549b19e9cf9883",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-4c9e20605f3ddd49",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-ccc1b1e2f6e29bd5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-499a5ec3726b596f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-851fdfc5337716a3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6f90714d4f51326a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-7ed8feef9ae4123c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-7a9b724725018119",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-9d887ef50bf7a50d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-fef7d66677bb5f55",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-5a76d25a0f0fc6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-6ca4e90bb16cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-86ce9bc4499a6cc7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-3a53a0f5d707e18d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-2dee9df3584085f8",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-5b18eae54d69da28",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-1ef50189cba8b4af",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-c4ff7fe1d3b2ab11",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drush",
+            "relatedSpdxElement": "SPDXRef-Package-b7cd1fa747504e31",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-drupal-plugin-ctools"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-drupal-plugin-smtp"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal-plugin-smtp",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-64c4db11ae2db6ac",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-7ceb939215f29815",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-f4d0f082c3e6e687",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-138623dcb20d4700",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-2c45b67f83f3ad34",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-408b2a57a31e49fd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-241b828b2ab8a110",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-b2430d2437b4aa35",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-d35f6b30f04c754f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-2bc8fba5245b8863",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-6ca557fe5b999023",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-6c95835b2fe21e9b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-dd9eda2b7837e927",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-b29ec9cab61a7817",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-f3b127cbd8241179",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-3e1b0084c8550b0b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-73795087baf97e43",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c1cd678a2c886b6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-ca56237bc3f8d1a6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-3a7ec3f2761c78f0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-ff0cae49e8b28a8b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-66f391e95837fb73",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-45aafe6ac70ada4a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-46069ac4ec73eb7e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-7561f8356d710e66",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-80e3a5f4c86661d1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c0938380da5ece8d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-6dff712f2c638dce",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-fd306a1bcfc61b7d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-536530025092335a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-708a54e1b000d3be",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-1123f6fb345be0ff",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-8392fab40513fb8a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c28d48468640cc00",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-e9d04c74a7906224",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-e25477ed2734fa63",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-559554bb92058b91",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-94b5712e535c99eb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-ae27e9aaba4951e7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-a7f690658a855822",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-1e6344daa660d82a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-a72e26077fb1da82",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c32bd8910ac422d0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-49731b80a34badeb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-8f8467949cd67281",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-2efa405838fd336c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-93b9928a8559a265",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-3f0343a0e48fae8e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-6c6b91c20221e156",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c1cacbf0e1a3fd1d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-7e99ebd2c4a691f1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-56e9be2dccdadec5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-787c104a34cbfc6d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-cd96bd80c1f7cbd0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-1d1de0c2c75f39dd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-edcf1fe378e0cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-3df2280cad661e93",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c7d31f6f4ed991c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-70ed8bd92f86013d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-9dcd4ed35d16ad46",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-aae08e37c2a87f5c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-2a6d99f705dc47e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-9313e3350c8b1837",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c6324eff3180bfea",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-cc963677ca0679e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-58d66bed2f56d41b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-33549b19e9cf9883",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-4c9e20605f3ddd49",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-ccc1b1e2f6e29bd5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-499a5ec3726b596f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-851fdfc5337716a3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-6f90714d4f51326a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-7ed8feef9ae4123c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-7a9b724725018119",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-9d887ef50bf7a50d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-fef7d66677bb5f55",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-5a76d25a0f0fc6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-6ca4e90bb16cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-86ce9bc4499a6cc7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-3a53a0f5d707e18d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-2dee9df3584085f8",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-5b18eae54d69da28",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-1ef50189cba8b4af",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-c4ff7fe1d3b2ab11",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal-plugin-smtp",
+            "relatedSpdxElement": "SPDXRef-Package-b7cd1fa747504e31",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-phpmailer"
+        },
+        {
+            "spdxElementId": "SPDXRef-phpmailer",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-2201f8edd0bfe089-phpmailer"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-64c4db11ae2db6ac",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-7ceb939215f29815",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-f4d0f082c3e6e687",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-138623dcb20d4700",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-2c45b67f83f3ad34",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-408b2a57a31e49fd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-241b828b2ab8a110",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-b2430d2437b4aa35",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-d35f6b30f04c754f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-2bc8fba5245b8863",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-6ca557fe5b999023",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-6c95835b2fe21e9b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-dd9eda2b7837e927",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-b29ec9cab61a7817",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-f3b127cbd8241179",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-3e1b0084c8550b0b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-73795087baf97e43",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c1cd678a2c886b6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-ca56237bc3f8d1a6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-3a7ec3f2761c78f0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-ff0cae49e8b28a8b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-66f391e95837fb73",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-45aafe6ac70ada4a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-46069ac4ec73eb7e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-7561f8356d710e66",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-80e3a5f4c86661d1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c0938380da5ece8d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-6dff712f2c638dce",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-fd306a1bcfc61b7d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-536530025092335a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-708a54e1b000d3be",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-1123f6fb345be0ff",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-8392fab40513fb8a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c28d48468640cc00",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-e9d04c74a7906224",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-e25477ed2734fa63",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-559554bb92058b91",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-94b5712e535c99eb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-ae27e9aaba4951e7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-a7f690658a855822",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-1e6344daa660d82a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-a72e26077fb1da82",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c32bd8910ac422d0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-49731b80a34badeb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-8f8467949cd67281",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-2efa405838fd336c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-93b9928a8559a265",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-3f0343a0e48fae8e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-6c6b91c20221e156",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c1cacbf0e1a3fd1d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-7e99ebd2c4a691f1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-56e9be2dccdadec5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-787c104a34cbfc6d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-cd96bd80c1f7cbd0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-1d1de0c2c75f39dd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-edcf1fe378e0cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-3df2280cad661e93",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c7d31f6f4ed991c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-70ed8bd92f86013d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-9dcd4ed35d16ad46",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-aae08e37c2a87f5c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-2a6d99f705dc47e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-9313e3350c8b1837",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c6324eff3180bfea",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-cc963677ca0679e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-58d66bed2f56d41b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-33549b19e9cf9883",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-4c9e20605f3ddd49",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-ccc1b1e2f6e29bd5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-499a5ec3726b596f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-851fdfc5337716a3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-6f90714d4f51326a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-7ed8feef9ae4123c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-7a9b724725018119",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-9d887ef50bf7a50d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-fef7d66677bb5f55",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-5a76d25a0f0fc6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-6ca4e90bb16cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-86ce9bc4499a6cc7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-3a53a0f5d707e18d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-2dee9df3584085f8",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-5b18eae54d69da28",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-1ef50189cba8b4af",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-c4ff7fe1d3b2ab11",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-phpmailer",
+            "relatedSpdxElement": "SPDXRef-Package-b7cd1fa747504e31",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-drupal",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-2201f8edd0bfe089-drupal"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-64c4db11ae2db6ac",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-7ceb939215f29815",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-f4d0f082c3e6e687",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-138623dcb20d4700",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2c45b67f83f3ad34",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-408b2a57a31e49fd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-241b828b2ab8a110",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-b2430d2437b4aa35",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-d35f6b30f04c754f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2bc8fba5245b8863",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-6ca557fe5b999023",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-6c95835b2fe21e9b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-dd9eda2b7837e927",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-b29ec9cab61a7817",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-f3b127cbd8241179",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-3e1b0084c8550b0b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-73795087baf97e43",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c1cd678a2c886b6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-ca56237bc3f8d1a6",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-3a7ec3f2761c78f0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-ff0cae49e8b28a8b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-66f391e95837fb73",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-45aafe6ac70ada4a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-46069ac4ec73eb7e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-7561f8356d710e66",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-80e3a5f4c86661d1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c0938380da5ece8d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-6dff712f2c638dce",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-fd306a1bcfc61b7d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-536530025092335a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-708a54e1b000d3be",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-1123f6fb345be0ff",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-8392fab40513fb8a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c28d48468640cc00",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-e9d04c74a7906224",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-e25477ed2734fa63",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-559554bb92058b91",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-94b5712e535c99eb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-ae27e9aaba4951e7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-a7f690658a855822",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-1e6344daa660d82a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-a72e26077fb1da82",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c32bd8910ac422d0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-49731b80a34badeb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-8f8467949cd67281",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2efa405838fd336c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-93b9928a8559a265",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-3f0343a0e48fae8e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-6c6b91c20221e156",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c1cacbf0e1a3fd1d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-7e99ebd2c4a691f1",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-56e9be2dccdadec5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-787c104a34cbfc6d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-cd96bd80c1f7cbd0",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-1d1de0c2c75f39dd",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-edcf1fe378e0cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-3df2280cad661e93",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c7d31f6f4ed991c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-70ed8bd92f86013d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-9dcd4ed35d16ad46",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-aae08e37c2a87f5c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2a6d99f705dc47e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-9313e3350c8b1837",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c6324eff3180bfea",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-cc963677ca0679e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-58d66bed2f56d41b",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-33549b19e9cf9883",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-4c9e20605f3ddd49",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-ccc1b1e2f6e29bd5",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-499a5ec3726b596f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-851fdfc5337716a3",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-6f90714d4f51326a",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-7ed8feef9ae4123c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-7a9b724725018119",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-9d887ef50bf7a50d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-fef7d66677bb5f55",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-5a76d25a0f0fc6c",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-6ca4e90bb16cc84",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-86ce9bc4499a6cc7",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-3a53a0f5d707e18d",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-2dee9df3584085f8",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-5b18eae54d69da28",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-1ef50189cba8b4af",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-c4ff7fe1d3b2ab11",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-2201f8edd0bfe089-drupal",
+            "relatedSpdxElement": "SPDXRef-Package-b7cd1fa747504e31",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
