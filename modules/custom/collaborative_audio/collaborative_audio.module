@@ -18,11 +18,14 @@ function collaborative_audio_form_alter(&$form, FormStateInterface $form_state, 
  */
 function collaborative_audio_install() {
   // Create the 'Collaborative Audio' content type if it doesn't exist.
-  $content_type = NodeType::create([
-    'type' => 'collaborative_audio',
-    'name' => 'Collaborative Audio',
-  ]);
-  $content_type->save();
+  $content_type = NodeType::load('collaborative_audio');
+  if (!$content_type) {
+    $content_type = NodeType::create([
+      'type' => 'collaborative_audio',
+      'name' => 'Collaborative Audio',
+    ]);
+    $content_type->save();
+  }
 
   // Add a file field for audio files to the 'Collaborative Audio' content type.
   $field_storage = FieldStorageConfig::create([
@@ -47,30 +50,38 @@ function collaborative_audio_install() {
     ],
   ])->save();
 
+
   // Assign form and display configurations.
-  $entity_form_display = \Drupal::entityTypeManager()->getStorage('entity_form_display');
-  $entity_form_display = $entity_form_display->loadCreate([
-    'targetEntityType' => 'node',
-    'bundle' => 'collaborative_audio',
-    'mode' => 'default',
-    'status' => TRUE,
-  ]);
-  $entity_form_display->setComponent('field_audio_file', [
+  $form_display_storage = \Drupal::entityTypeManager()->getStorage('entity_form_display');
+  $form_display = $form_display_storage->load('node.collaborative_audio.default');
+  if (!$form_display) {
+    $form_display = $form_display_storage->create([
+      'targetEntityType' => 'node',
+      'bundle' => 'collaborative_audio',
+      'mode' => 'default',
+      'status' => TRUE,
+    ]);
+  }
+  $form_display->setComponent('field_audio_file', [
     'type' => 'file_generic',
     'weight' => 1,
   ])->save();
 
-  $entity_view_display = \Drupal::entityTypeManager()->getStorage('entity_view_display');
-  $entity_view_display = $entity_view_display->loadCreate([
-    'targetEntityType' => 'node',
-    'bundle' => 'collaborative_audio',
-    'mode' => 'default',
-    'status' => TRUE,
-  ]);
-  $entity_view_display->setComponent('field_audio_file', [
+  $view_display_storage = \Drupal::entityTypeManager()->getStorage('entity_view_display');
+  $view_display = $view_display_storage->load('node.collaborative_audio.default');
+  if (!$view_display) {
+    $view_display = $view_display_storage->create([
+      'targetEntityType' => 'node',
+      'bundle' => 'collaborative_audio',
+      'mode' => 'default',
+      'status' => TRUE,
+    ]);
+  }
+  $view_display->setComponent('field_audio_file', [
     'type' => 'file_audio',
     'weight' => 1,
   ])->save();
+
 }
 
 /**
