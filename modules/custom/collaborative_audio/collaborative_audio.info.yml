@@ -4,4 +4,5 @@ description: 'Allows users to upload audio files with waveform display and proje
 core_version_requirement: ^10
 package: Custom
 dependencies:
+  - drupal:node
   - drupal:file

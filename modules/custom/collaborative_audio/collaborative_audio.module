@@ -1,5 +1,9 @@
 <?php
 
+use Drupal\node\Entity\NodeType;
+use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\field\Entity\FieldConfig;
+use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
@@ -7,4 +11,95 @@ use Drupal\Core\Form\FormStateInterface;
  */
 function collaborative_audio_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   // Alter forms here if necessary
+}
+
+/**
+ * Implements hook_install().
+ */
+function collaborative_audio_install() {
+  // Create the 'Collaborative Audio' content type if it doesn't exist.
+  $content_type = NodeType::create([
+    'type' => 'collaborative_audio',
+    'name' => 'Collaborative Audio',
+  ]);
+  $content_type->save();
+
+  // Add a file field for audio files to the 'Collaborative Audio' content type.
+  $field_storage = FieldStorageConfig::create([
+    'entity_type' => 'node',
+    'field_name' => 'field_audio_file',
+    'type' => 'file',
+    'settings' => [
+      'file_extensions' => 'mp3 wav',
+    ],
+    'cardinality' => FieldStorageDefinitionInterface::CARDINALITY_UNLIMITED,
+  ]);
+  $field_storage->save();
+
+  FieldConfig::create([
+    'entity_type' => 'node',
+    'bundle' => 'collaborative_audio',
+    'field_name' => 'field_audio_file',
+    'label' => 'Audio File',
+    'settings' => [
+      'file_directory' => 'public://collaborative_audio_files',
+      'file_extensions' => 'mp3 wav',
+    ],
+  ])->save();
+
+  // Assign form and display configurations.
+  $entity_form_display = \Drupal::entityTypeManager()->getStorage('entity_form_display');
+  $entity_form_display = $entity_form_display->loadCreate([
+    'targetEntityType' => 'node',
+    'bundle' => 'collaborative_audio',
+    'mode' => 'default',
+    'status' => TRUE,
+  ]);
+  $entity_form_display->setComponent('field_audio_file', [
+    'type' => 'file_generic',
+    'weight' => 1,
+  ])->save();
+
+  $entity_view_display = \Drupal::entityTypeManager()->getStorage('entity_view_display');
+  $entity_view_display = $entity_view_display->loadCreate([
+    'targetEntityType' => 'node',
+    'bundle' => 'collaborative_audio',
+    'mode' => 'default',
+    'status' => TRUE,
+  ]);
+  $entity_view_display->setComponent('field_audio_file', [
+    'type' => 'file_audio',
+    'weight' => 1,
+  ])->save();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function collaborative_audio_uninstall() {
+  // Remove the content type and fields when the module is uninstalled.
+  $content_type = NodeType::load('collaborative_audio');
+  if ($content_type) {
+    $content_type->delete();
+  }
+
+  $fields = FieldConfig::loadMultiple(['bundle' => 'collaborative_audio']);
+  foreach ($fields as $field) {
+    $field->delete();
+  }
+
+  $field_storages = FieldStorageConfig::loadMultiple(['entity_type' => 'node', 'field_name' => 'field_audio_file']);
+  foreach ($field_storages as $field_storage) {
+    $field_storage->delete();
+  }
+}
+
+/**
+ * Implements hook_node_view().
+ */
+function collaborative_audio_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+  if ($entity->bundle() === 'collaborative_audio' && $view_mode === 'full') {
+    $build['#attached']['library'][] = 'collaborative_audio/wavesurfer';
+    $build['#attached']['library'][] = 'collaborative_audio/collaborative_audio_waveform.js';
+  }
 }
