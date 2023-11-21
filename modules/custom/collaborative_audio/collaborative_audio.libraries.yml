@@ -1,8 +1,9 @@
-waveform:
+collaborative-audio:
   version: 1.x
   js:
-    https://unpkg.com/wavesurfer.js: { type: external, minified: true }
     js/collaborative_audio.js: {}
+    js/wavesurfer.js: {}  # Assuming you have wavesurfer.min.js in the js directory
   dependencies:
-    - core/jquery
     - core/drupal
+    - core/jquery
+    - core/once

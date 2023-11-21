@@ -112,9 +112,7 @@ function collaborative_audio_uninstall() {
  */
 function collaborative_audio_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
   if ($entity->bundle() === 'collaborative_audio' && $view_mode === 'full') {
-    $build['#attached']['library'][] = 'collaborative_audio/wavesurfer';
-    $build['#attached']['library'][] = 'collaborative_audio/collaborative_audio_waveform.js';
-    $build['#attached']['library'][] = 'collaborative_audio/waveform';
+    $build['#attached']['library'][] = 'collaborative_audio/collaborative_audio';
   }
 }
 

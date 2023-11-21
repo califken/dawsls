@@ -1,13 +1,7 @@
-(function (Drupal, drupalSettings) {
+(function (Drupal, once) {
   Drupal.behaviors.collaborativeAudioWaveform = {
-    attach: function (context) {
-      const audioFields = context.querySelectorAll('.field--name-field-audio-file');
-      for (const audioField of audioFields) {
-        if (audioField.classList.contains('js-processed-collaborative-audiowaveform')) {
-          continue;
-        }
-        audioField.classList.add('js-processed-collaborative-audiowaveform');
-
+    attach: function (context, settings) {
+      once('collaborativeAudioWaveform', '.field--name-field-audio-file', context).forEach(function (audioField) {
         var audioFileUrl = audioField.querySelector('audio').getAttribute('src');
         var waveSurfer = WaveSurfer.create({
           container: audioField,
@@ -18,7 +12,7 @@
         if (audioFileUrl) {
           waveSurfer.load(audioFileUrl);
         }
-      }
+      });
     }
   };
-})(Drupal, drupalSettings);
+})(Drupal, once);
